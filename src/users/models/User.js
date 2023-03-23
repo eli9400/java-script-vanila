@@ -122,6 +122,9 @@ class User {
   get _id() {
     return this.#id;
   }
+  get isBusiness() {
+    return this.#isBusiness;
+  }
   get isAdmin() {
     return this.#isAdmin;
   }

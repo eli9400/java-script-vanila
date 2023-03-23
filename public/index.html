@@ -62,10 +62,10 @@
                     >About</span
                   >
                 </li>
-                <li class="nav-item d-none">
+                <li class="nav-item">
                   <span
                     id="create-pic-link"
-                    class="nav-link cursor"
+                    class="nav-link cursor d-none"
                     aria-current="page"
                     >Add Pic</span
                   >
@@ -85,10 +85,26 @@
                 </li>
                 <li class="nav-item">
                   <span
+                    id="edit-profile-page-link"
+                    class="nav-link cursor d-none"
+                    aria-current="page"
+                    >edit profile</span
+                  >
+                </li>
+                <li class="nav-item">
+                  <span
                     id="login-page-link"
                     class="nav-link cursor"
                     aria-current="page"
                     >Login</span
+                  >
+                </li>
+                <li class="nav-item">
+                  <span
+                    id="logout-page-link"
+                    class="nav-link cursor d-none"
+                    aria-current="page"
+                    >logout</span
                   >
                 </li>
               </ul>
@@ -152,6 +168,7 @@
             <div class="col-12 col-md-10 col-xl-8">
               <h1 class="display-4">ABOUT PAGE</h1>
               <h2 class="fs-5">Here you can look at your pictures...</h2>
+
               <hr />
             </div>
           </div>
@@ -474,7 +491,11 @@
           <div class="center">
             <div class="col-12 col-md-10 col-xl-8">
               <h1 class="display-4">ERROR 404 PAGE</h1>
-              <h2 class="fs-5">Here you can look at your pictures...</h2>
+              <h2 class="fs-5">
+                <span id="return-to-home-page-link" class="navbar-brand cursor"
+                  >return to home page</span
+                >
+              </h2>
               <hr />
             </div>
           </div>
